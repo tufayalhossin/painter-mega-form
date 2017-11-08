@@ -1,0 +1,143 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+.active{
+	border: 1px solid rgba(103, 58, 183, 0.83) !important;
+}
+.painter-main-wrapper{
+	border: 1px solid #ddd;
+	margin-top: 120px;
+	padding: 30px 15px 15px;
+	background: #fff;
+}
+
+
+.section-bg:before{
+    content: " ";
+    background-image: url(https://static.pexels.com/photos/225233/pexels-photo-225233.jpeg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+	width: 100%;
+    height:100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.painter-main-wrapper input{
+	box-shadow: none !important ;
+	border-color: transparent !important;
+}
+
+.form-wrapper .input-group{
+	margin-bottom: 10px;
+	border: 1px solid rgba(103, 58, 194, 0.13) ;
+}
+
+.form-wrapper h3{
+	color: #673AB7;
+	padding: 15px 0 5px; 
+	margin: 0;
+	border-bottom: 1px solid #673AB7;
+}
+
+.form-wrapper small{
+	padding: 15px 0; 
+	display: block;
+	font-size: 15px;
+}
+
+.submit-form label{
+	margin-top: 6px;
+}
+
+.submit-form a,
+.submit-form-login a{
+	float: right;    
+	background: #673ab7;
+    padding: 6px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.submit-form a:hover,
+.submit-form-login a:hover{
+	background: rgba(103, 58, 183, 0.83);
+}
+
+.input-border{
+	padding: 0 15px 0 0;
+}
+
+.input-border i{
+	color: #673AB7;
+}
+
+.form-wrapper .input-group input,
+.form-wrapper .input-group span{
+	border-radius: 0px ;
+	border: none;
+}
+
+.login-with-social{
+	padding: 0 15px 0 0;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.login-with-social a{
+	display: block;
+	color: #ffffff;
+	padding:8px  10px;
+}
+
+.login-with-social a i{
+	float: left;
+	font-size: 18px;
+}
+
+.painter-twitter a{
+	background: #00b6f1;
+}
+
+.painter-facebook a{
+	background: #3b5998;
+}
+
+.painter-linkedin a{
+	background: #007bb6;
+}
+
+.painter-google a{
+	background:  #df4a32;
+}
+
+.or-login{
+	padding: 0
+}
+.or-login small{
+	padding: 8px 0 17px;
+}
+.form-footer{
+	margin: 20px 0 0;
+	/*border-top:1px solid #cccccc; */
+}
+.form-footer p{
+	text-align: center;
+}
+.form-footer p a{
+	color: #673AB7;
+	text-decoration: none;
+}
